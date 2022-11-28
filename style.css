@@ -5,7 +5,26 @@ nav{
     color: black;
 font-size: 200%;
 }
+
 body{
     background-image: url(background_image_knit.jpg);
-    background-size: cover;
+
+}
+
+#content{
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+
+}
+
+#content_left{
+    background-color: aliceblue;
+
+}
+
+#content_left h2{
+    margin-left: 30px;
+}
+#content_left p{
+    margin-left: 30px;
 }
